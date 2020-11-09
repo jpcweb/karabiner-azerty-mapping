@@ -1,0 +1,335 @@
+{
+    "rules": [
+        {
+            "description": "Azerty Remap for keypad suppr, keypad point,Fn,back-slash,@#|~{}[]_!*-=",
+            "manipulators": [
+                {
+                    "description": "-",
+                    "from": {
+                        "key_code": "6"
+                    },
+                    "to": {
+                        "key_code": "keypad_hyphen"
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "=",
+                    "from": {
+                        "key_code": "equal_sign"
+                    },
+                    "to": {
+                        "key_code": "keypad_equal_sign"
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "Fn",
+                    "from": {
+                        "key_code": "grave_accent_and_tilde"
+                    },
+                    "to": {
+                        "key_code": "fn"
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "@",
+                    "from": {
+                        "key_code": "0",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "grave_accent_and_tilde"
+                    },
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "keypad_hyphen",
+                        "modifiers": {
+                            "mandatory": [
+                                "shift"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "keypad_6"
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "`",
+                    "from": {
+                        "key_code": "7",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "backslash"
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "#",
+                    "from": {
+                        "key_code": "3",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "grave_accent_and_tilde",
+                        "modifiers": [
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "\\",
+                    "from": {
+                        "key_code": "8",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "period",
+                        "modifiers": [
+                            "right_option",
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "|",
+                    "from": {
+                        "key_code": "keypad_hyphen",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "l",
+                        "modifiers": [
+                            "right_option",
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "~",
+                    "from": {
+                        "key_code": "2",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "n",
+                        "modifiers": [
+                            "right_option"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "keypad suppr",
+                    "from": {
+                        "key_code": "keypad_period",
+                        "modifiers": {
+                            "mandatory": [
+                                "shift"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "delete_or_backspace",
+                        "modifiers": [
+                            "fn"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "keypad .",
+                    "from": {
+                        "key_code": "keypad_period",
+                        "modifiers": {}
+                    },
+                    "to": {
+                        "key_code": "comma",
+                        "modifiers": [
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "[",
+                    "from": {
+                        "key_code": "5",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "5",
+                        "modifiers": [
+                            "right_option",
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "]",
+                    "from": {
+                        "key_code": "hyphen",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "hyphen",
+                        "modifiers": [
+                            "right_option",
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "{",
+                    "from": {
+                        "key_code": "4",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "5",
+                        "modifiers": [
+                            "right_option"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "}",
+                    "from": {
+                        "key_code": "keypad_equal_sign",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": {
+                        "key_code": "hyphen",
+                        "modifiers": [
+                            "right_option"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "_",
+                    "from": {
+                        "key_code": "8"
+                    },
+                    "to": {
+                        "key_code": "equal_sign",
+                        "modifiers": [
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                },
+                {
+                    "description": "!",
+                    "from": {
+                        "key_code": "slash"
+                    },
+                    "to": {
+                        "key_code": "8"
+                    },
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "non_us_pound"
+                    },
+                    "to": {
+                        "key_code": "close_bracket",
+                        "modifiers": [
+                            "right_shift"
+                        ]
+                    },
+                    "type": "basic"
+                }
+            ]
+        }
+    ],
+    "title": "Azerty Remap"
+}
