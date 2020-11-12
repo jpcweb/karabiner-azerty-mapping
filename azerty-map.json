@@ -275,7 +275,7 @@
                 {
                     "description": "}",
                     "from": {
-                        "key_code": "keypad_equal_sign",
+                        "key_code": "equal_sign",
                         "modifiers": {
                             "mandatory": [
                                 "option"
